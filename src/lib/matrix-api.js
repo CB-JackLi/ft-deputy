@@ -275,7 +275,7 @@ let queryTns2 = (token, queryString) => {
 };
 
 let uploadImg = (token, data) => {
-  let url = `${getUrl('com', ENV)}/consumer/talentnetwork/cms/upload`;
+  let url = `${getUrl('com', ENV)}/consumer/fulfillment/talentnetwork/resource/upload-s3`;
   let options = {
     method: 'POST',
     uri: url,
